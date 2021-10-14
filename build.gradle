@@ -32,6 +32,10 @@ dependencies {
     compile('org.projectlombok:lombok')
     annotationProcessor('org.projectlombok:lombok')
 
+    // Spring Data JPA 라이브러라
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2:')
+
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
