@@ -28,6 +28,11 @@ repositories {
 }
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    // 롬복 라이브러리
+    compile('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
